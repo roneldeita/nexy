@@ -1,8 +1,19 @@
 @import '_vars.scss';
-
-.test{
-  background-color: $blue 
+.layout-content{
+  height: 100vh
 }
-.nice{
-  background-color: aqua
+.grid-layout{
+  width:100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.border{
+  border: 1px solid black
+  
+}
+.blue{
+  background-color: $blue
+}
+.green{
+  background-color: $green
 }

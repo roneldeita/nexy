@@ -1,7 +1,7 @@
 {
   "name": "ecpa-next",
   "version": "1.0.0",
-  "description": "Ecashpay Asia Web application using next.js famework\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[Cr",
+  "description": "Ecashpay Asia Web application using nextJS",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 4500",
@@ -12,11 +12,17 @@
   "author": "Ronel A. Deita",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "^0.2.0",
     "@zeit/next-sass": "^0.2.0",
-    "autoprefixer": "^9.1.0",
+    "antd": "^3.8.0",
+    "babel-plugin-import": "^1.8.0",
     "next": "^6.1.1",
     "node-sass": "^4.9.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-define": "^1.3.0"
   }
 }
