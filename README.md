@@ -1,1 +1,1 @@
-# ecpa-next
+# NextJS + Ant Design UI library
