@@ -6,7 +6,7 @@ const { Header, Content, Footer } = Layout
 
 const GridLayout = (props) => (
   <Row className="grid-layout" type="flex" justify="center">
-    <Col xs={24} sm={22} md={18} lg={16} xl={14} xxl={12}>
+    <Col xs={24} sm={24} md={20} lg={18} xl={16} xxl={14}>
       {props.children}
     </Col>
   </Row>
@@ -33,6 +33,7 @@ export default (props) => (
       .ant-layout-header{
         background: #fff !important;
         height: 48px !important;
+        padding: 0px 0px !important;
       }
     `}
     </style>
