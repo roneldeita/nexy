@@ -1,6 +1,8 @@
 import App, {Container} from 'next/app'
 import React from 'react'
 import Layout from '../components/template/Layout'
+//global styling
+import '../scss/style.scss'
 
 export default class MyApp extends App {
   static async getInitialProps ({ Component, router, ctx }) {
